@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class CalculationException extends NumberFormatException {
 
-public class Exception {
+    public CalculationException (String description) {
+        super(description);
+    }
+
 }

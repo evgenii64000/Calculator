@@ -22,7 +22,7 @@ class Calculator {
         if (input.isEmpty()) {
             throw new CalculationException("Введена пустая строка");
         }
-        String[] mathSigh = input.split(" "); //Добавить проверку на размер числа
+        String[] mathSigh = input.split(" ");
         if (mathSigh.length != 3) {
             throw new CalculationException("Неверный формат примера");
         }
